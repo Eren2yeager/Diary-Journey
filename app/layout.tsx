@@ -83,7 +83,7 @@ export const metadata: Metadata = {
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION,
     yandex: process.env.NEXT_PUBLIC_YANDEX_VERIFICATION,
-    yahoo: process.env.NEXT_PUBLIC_YAHOO_VERIFICATION,
+    // yahoo: process.env.NEXT_PUBLIC_YAHOO_VERIFICATION,
   },
   alternates: {
     canonical: baseUrl,
@@ -119,7 +119,9 @@ export default function RootLayout({
         />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#8b5cf6" />
-        {/* google tag manager */}
+        {/* <meta name="yandex-verification" content="4cf4f284c9ad03c9" /> */}
+        {/* <meta name="google-site-verification" content="4cf4f23mHxtBeby9jyvRWrRGxzjX7ryOXqy80bE-kGR784c9ad03c9" /> */}
+        <meta name="msvalidate.01" content="723712B361C42D3BEF10C77195CCA775" />
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-M15HGJK9L5"
