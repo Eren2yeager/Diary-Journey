@@ -57,14 +57,14 @@ export default function AnimeButton({
       {...props}
     >
       <span className="relative z-10 flex items-center gap-2">
-        {isLoading && (
+      {isLoading && (
           <motion.span
             animate={{ rotate: 360 }}
             transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
             className="h-4 w-4 rounded-full border-2 border-current border-t-transparent"
           />
-        )}
-        {children}
+      )}
+      {children}
       </span>
       {variant !== 'ghost' && (
         <motion.div

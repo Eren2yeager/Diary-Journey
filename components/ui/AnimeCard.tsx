@@ -8,9 +8,12 @@ function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-interface AnimeCardProps extends HTMLMotionProps<'div'> {
+import { ReactNode } from 'react';
+
+interface AnimeCardProps extends Omit<HTMLMotionProps<'div'>, 'children'> {
   hoverEffect?: boolean;
   gradient?: boolean;
+  children?: ReactNode;
 }
 
 export default function AnimeCard({
@@ -55,7 +58,7 @@ export default function AnimeCard({
         />
       )}
       <div className="relative z-10">
-        {children}
+      {children}
       </div>
       {hoverEffect && (
         <motion.div

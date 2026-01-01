@@ -228,12 +228,12 @@ export default function EntriesPage() {
                           <Calendar size={16} className="sm:w-[18px] sm:h-[18px] text-purple-500 flex-shrink-0" />
                           <span className="truncate sm:whitespace-normal">
                             <span className="hidden sm:inline">
-                              {new Date(entry.createdAt!).toLocaleDateString(undefined, {
+                          {new Date(entry.createdAt!).toLocaleDateString(undefined, {
                                 weekday: 'long',
-                                year: 'numeric',
-                                month: 'long',
-                                day: 'numeric',
-                              })}
+                            year: 'numeric',
+                            month: 'long',
+                            day: 'numeric',
+                          })}
                             </span>
                             <span className="sm:hidden">
                               {new Date(entry.createdAt!).toLocaleDateString(undefined, {

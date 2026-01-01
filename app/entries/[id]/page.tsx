@@ -194,15 +194,15 @@ export default function EntryPage() {
                 <Calendar size={18} className="sm:w-5 sm:h-5 text-purple-500 flex-shrink-0" />
                 <span className="text-center sm:text-left">
                   <span className="hidden sm:inline">
-                    {new Date(entry.createdAt!).toLocaleDateString(undefined, {
-                      weekday: 'long',
-                      year: 'numeric',
-                      month: 'long',
-                      day: 'numeric',
-                      hour: '2-digit',
-                      minute: '2-digit'
-                    })}
-                  </span>
+                  {new Date(entry.createdAt!).toLocaleDateString(undefined, {
+                    weekday: 'long',
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                  })}
+                </span>
                   <span className="sm:hidden">
                     {new Date(entry.createdAt!).toLocaleDateString(undefined, {
                       weekday: 'short',

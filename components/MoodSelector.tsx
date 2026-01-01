@@ -141,8 +141,8 @@ export default function MoodSelector({ selectedMood, onSelect }: MoodSelectorPro
                 className={cn(
                   'relative z-10 p-1.5 sm:p-2 rounded-lg sm:rounded-xl',
                   isSelected ? 'bg-white/20' : mood.bg
-                )}
-              >
+              )}
+            >
                 <Icon size={18} className="sm:w-[22px] sm:h-[22px]" />
               </motion.div>
               <span className="relative z-10">{mood.label}</span>

@@ -72,9 +72,9 @@ export default function Loading() {
             ease: "easeInOut"
           }}
           className="text-xl md:text-2xl font-bold gradient-text"
-        >
+      >
           Loading Your Memories...
-        </motion.p>
+      </motion.p>
       </motion.div>
     </div>
   );
