@@ -42,7 +42,7 @@ A modern, beautiful, and secure digital diary application built with Next.js. Ca
 ### Installation
 
 1. **Clone the repository**
-   ```bash
+```bash
    git clone <your-repo-url>
    cd Diary-app
    ```
@@ -80,7 +80,7 @@ A modern, beautiful, and secure digital diary application built with Next.js. Ca
 4. **Run the development server**
    ```bash
    npm run dev
-   ```
+```
 
 5. **Open your browser**
    

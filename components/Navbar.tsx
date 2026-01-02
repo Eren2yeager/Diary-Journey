@@ -37,6 +37,7 @@ export default function Navbar() {
               transition={{
                 duration: 2,
                 repeat: Infinity,
+                
                 ease: "linear"
               }}
             />

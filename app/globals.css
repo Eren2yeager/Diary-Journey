@@ -198,7 +198,7 @@ body {
     rgba(248, 181, 0, 0.3) 0%,
     transparent 50%
   );
-  animation: float 15s ease-in-out infinite;
+  /* animation: float 15s ease-in-out infinite; */
   z-index: -1;
 }
 

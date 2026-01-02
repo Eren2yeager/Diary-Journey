@@ -115,7 +115,7 @@ export default function Home() {
         transition={{ duration: 0.8, ease: "easeOut" }}
         className="relative z-10 flex flex-col items-center max-w-5xl px-3 sm:px-4"
       >
-        <motion.div
+        <motion.div 
           initial={{ y: -30, opacity: 0, rotate: -180 }}
           animate={{ y: 0, opacity: 1, rotate: 0 }}
           transition={{ delay: 0.3, type: "spring", stiffness: 200 }}
