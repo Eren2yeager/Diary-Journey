@@ -123,7 +123,7 @@ export default function RootLayout({
         {/* <meta name="yandex-verification" content="4cf4f284c9ad03c9" /> */}
         {/* <meta name="google-site-verification" content="4cf4f23mHxtBeby9jyvRWrRGxzjX7ryOXqy80bE-kGR784c9ad03c9" /> */}
         <meta name="msvalidate.01" content="723712B361C42D3BEF10C77195CCA775" />
-        <meta name="google-adsense-account" content="ca-pub-8087433426152754">
+        <meta name="google-adsense-account" content="ca-pub-8087433426152754"/>
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-M15HGJK9L5"
